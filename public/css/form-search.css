@@ -1,0 +1,113 @@
+/*  */
+.modal-search {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    background-color: #FFF;
+    text-align: center;
+    margin: auto;
+    display: none;
+    z-index: 3;
+}
+
+/*  */
+.modal-search p.title {
+    font-family: 'Quicksand';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #2D2A6E;
+    margin-bottom: 25px;
+}
+
+.modal-search {
+    padding: 95px 0px 94px;
+}
+
+.modal-search form {
+    display: inline-block;
+    position: relative;
+}
+
+.modal-search form input[type="text"] {
+    width: 600px;
+    height: 45px;
+    padding-left: 20px;
+    outline: none;
+    border: 1px solid #CFD4DE;
+    position: relative;
+}
+.modal-search form .btn_search {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 90px;
+    height: 45px;
+}
+.modal-search form .btn_search input[type="submit"] {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 0px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+}
+.modal-search form .btn_search input[type="submit"]:hover {
+    cursor: pointer;
+}
+.modal-search form .btn_search i{
+    transition: all 0.3s ease;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    color: #2D2A6E;
+    font-size: 20px;
+    z-index: 1;
+}
+.modal-search form .btn_search:hover i{
+    transition: all 0.3s ease;
+    color: #96AE00;
+}
+.modal-search p.category {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #4D5574;
+    margin:17px 0 0 0;
+}
+
+.modal-search a {
+    color: #96AE00;
+}
+
+.close-search-form {
+
+    position: absolute;
+    top: 10%;
+    right: 5%;
+}
+.close-search-form i {
+    transition: all 0.5s ease;
+    font-size: 20px;
+    color: #2D2A6E;
+}
+.close-search-form:hover i {
+    transition: all 0.5s ease;
+    transform: rotate(180deg);
+    color: #96AE00;
+}
+
+.modal-search form input::placeholder {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ACAFB7;
+}

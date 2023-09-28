@@ -1,0 +1,14 @@
+$(document).ready(function(){
+    $('#cart-inpage').click(function(){
+        $('.background-dialog').css('display','block');
+        $('.cart-inpage').css('display','block');
+            $('.close-cart-inpage').click(function(){
+                $('.background-dialog').css('display','none');
+                $('.cart-inpage').css('display','none');
+            });
+            $(('.background-dialog')).click(function(){
+                $('.background-dialog').css('display','none');
+                $('.cart-inpage').css('display','none');    
+            })
+    })
+})

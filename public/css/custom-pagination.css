@@ -1,0 +1,33 @@
+nav.custom-pagination{
+    width: 100%;
+}
+ul.pagination{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+ul.pagination li.page-item .page-link{
+    transition: all 0.3s ease;
+    color: #79819C;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #DCE1E8;
+    background-color: #fff;
+    font-size: 14px;
+}
+
+ul.pagination li.page-item.active .page-link{
+    color: #FFF;
+    background-color: #96AE00;
+    border-color: #96AE00;
+}
+
+ul.pagination li.page-item a.page-link:hover{
+    transition: all 0.3s ease;
+    background-color: #96AE00;
+    color: #fff;
+}

@@ -1,0 +1,971 @@
+/* Media Query for Mobile Devices */
+@media (max-width: 240px) {}
+@media (min-width: 240px) and (max-width: 319px) {}
+@media (min-width: 320px) and (max-width: 399px) {
+  .about-us-page-content{
+    margin-top: 10px !important;
+  }
+  .banner-about-us-page{
+    background-repeat: no-repeat;
+    padding-top: 100px;
+  }
+   /* 1 */
+   .about-us-page-content-1>.about-us-page-content-1-right{
+    max-width: 300px !important;
+    padding-top: 180px;
+    padding-left: 30px;
+  }
+  .about-us-page-content-1{
+    width: 100% !important;
+    display: block !important;
+    
+  }
+  .about-us-page-content-1-left>img:nth-child(3){
+    width: 255px !important;
+    height: 160px !important;
+  }
+  .about-us-page-content-1-left>img:first-child{
+    top: 100px !important;
+    left: 40% !important;
+  }
+  .about-us-page-content-1-left>img:nth-child(2) {
+    top: 0% !important;
+    left: 0% !important;
+}
+  .about-us-page-content-1-left>img:nth-child(3){
+    left: 20% !important;
+  }
+  .about-us-page-content-1{
+    margin-bottom: 0px !important;
+  }
+  /* 2 */
+  .about-us-page-content-2{
+    display: block !important;
+    text-align: center !important;
+    padding:0px 20px;
+    margin-bottom: 20px !important;
+  }
+  .about-us-page-content-2>img{
+    width: 10%;
+    display: none !important;
+  }
+  .about-us-page-content-2>.about-us-page-content-2-content{
+    max-width: 100% !important;
+    margin-top: 20px;
+  }
+
+  /* 3 */
+  .about-us-page-content-3>.why-chose-us-about-us-page{
+    width: 300px !important;
+    padding-bottom: 0px !important;
+  }
+  .about-us-page-content-3>.why-chose-us-about-us-page>.why-chose-us-about-us-page-content{
+    flex-wrap: wrap;
+  }
+  .about-us-page-content-3>.why-chose-us-about-us-page>.why-chose-us-about-us-page-content>.gossip-why-chose-us-about-us{
+    width:100% !important;
+    margin-bottom: 30px;
+  }
+  /* 4 */
+  .about-us-page-content-4>.working-ability-about-us-page{
+    width: 300px !important;
+  }
+  .about-us-page-content-4>.working-ability-about-us-page>.working-ability-about-us-page-content{
+    flex-wrap: wrap;
+  }
+  .about-us-page-content-4>.working-ability-about-us-page>.working-ability-about-us-page-content>.cheat-working-ability-about-us-page{
+    width: 47%;
+    margin-bottom: 10px;
+  }
+  .about-us-page-content-4>.working-ability-about-us-page>iframe{
+    height: 300px !important;
+  }
+  /* 5 */
+  .about-us-page-content-5>.different-about-us-page{
+    width: 300px !important;
+  }
+  .about-us-page-content-5>.different-about-us-page>.different-about-us-page-content{
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .about-us-page-content-5>.different-about-us-page>.different-about-us-page-content>.lie-different-about-us-page{
+    width: 49% !important;
+    margin-bottom: 10px;
+    padding: 30px 15px !important;
+  }
+  
+  /* 6 */
+  .testimonial-about-us-page-content>.client-say-testimonial-about-us-page{
+    width: 300px !important;
+  }
+  .about-us-page-content-6>.testimonial-about-us-page{
+    width: 300px !important;
+  }
+  .about-us-page-content-6>.testimonial-about-us-page>.testimonial-about-us-page-content{
+    display: block !important;
+  }
+}
+@media (min-width:400px) and (max-width: 480px) {
+  .about-us-page-content{
+    margin-top: 10px !important;
+  }
+  .banner-about-us-page{
+    background-repeat: no-repeat;
+  }
+   /* 1 */
+   .about-us-page-content-1>.about-us-page-content-1-right{
+    max-width: 350px !important;
+    padding-top: 180px;
+    padding-left: 30px;
+  }
+  .about-us-page-content-1{
+    width: 100% !important;
+    display: block !important;
+    
+  }
+  .about-us-page-content-1-left>img:nth-child(3){
+    width: 255px !important;
+    height: 160px !important;
+  }
+  .about-us-page-content-1-left>img:first-child{
+    top: 100px !important;
+    left: 45% !important;
+  }
+  .about-us-page-content-1-left>img:nth-child(2) {
+    top: 0% !important;
+    left: 0% !important;
+}
+  .about-us-page-content-1-left>img:nth-child(3){
+    left: 20% !important;
+  }
+
+  .about-us-page-content-1{
+    margin-bottom: 0px !important;
+  }
+  /* 2 */
+  .about-us-page-content-2{
+    display: block !important;
+    text-align: center !important;
+    padding:0px 20px;
+    margin-bottom: 20px !important;
+  }
+  .about-us-page-content-2>img{
+    width: 10%;
+    display: none !important;
+  }
+  .about-us-page-content-2>.about-us-page-content-2-content{
+    max-width: 100% !important;
+    margin-top: 20px;
+  }
+  /* 3 */
+  .about-us-page-content-3>.why-chose-us-about-us-page{
+    width: 350px !important;
+    padding-bottom: 0px !important;
+  }
+  .about-us-page-content-3>.why-chose-us-about-us-page>.why-chose-us-about-us-page-content{
+    flex-wrap: wrap;
+  }
+  .about-us-page-content-3>.why-chose-us-about-us-page>.why-chose-us-about-us-page-content>.gossip-why-chose-us-about-us{
+    width:100% !important;
+    margin-bottom: 30px;
+  }
+  /* 4 */
+  .about-us-page-content-4>.working-ability-about-us-page{
+    width: 350px !important;
+  }
+  .about-us-page-content-4>.working-ability-about-us-page>.working-ability-about-us-page-content{
+    flex-wrap: wrap;
+  }
+  .about-us-page-content-4>.working-ability-about-us-page>.working-ability-about-us-page-content>.cheat-working-ability-about-us-page{
+    width: 47%;
+    margin-bottom: 10px;
+  }
+  .about-us-page-content-4>.working-ability-about-us-page>iframe{
+    height: 300px !important;
+  }
+  /* 5 */
+  .about-us-page-content-5>.different-about-us-page{
+    width: 350px !important;
+  }
+  .about-us-page-content-5>.different-about-us-page>.different-about-us-page-content{
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .about-us-page-content-5>.different-about-us-page>.different-about-us-page-content>.lie-different-about-us-page{
+    width: 49% !important;
+    margin-bottom: 10px;
+    padding: 30px 15px !important;
+  }
+  
+  /* 6 */
+  .testimonial-about-us-page-content>.client-say-testimonial-about-us-page{
+    width: 350px !important;
+  }
+  .about-us-page-content-6>.testimonial-about-us-page{
+    width: 350px !important;
+  }
+  .about-us-page-content-6>.testimonial-about-us-page>.testimonial-about-us-page-content{
+    display: block !important;
+  }
+}
+@media (min-width: 481px) and (max-width:539px) {
+  .about-us-page-content{
+    margin-top: 10px !important;
+  }
+  .banner-about-us-page{
+    background-repeat: no-repeat;
+  }
+   /* 1 */
+   .about-us-page-content-1>.about-us-page-content-1-right{
+    max-width: 450px !important;
+    padding-top: 180px;
+    padding-left: 30px;
+  }
+  .about-us-page-content-1{
+    width: 100% !important;
+    display: block !important;
+    
+  }
+  .about-us-page-content-1-left>img:nth-child(3){
+    width: 335px !important;
+    height: 200px !important;
+  }
+  .about-us-page-content-1-left>img:first-child{
+    top: 100px !important;
+    left: 50% !important;
+  }
+  .about-us-page-content-1-left>img:nth-child(2) {
+    top: 0% !important;
+    left: 0% !important;
+}
+  .about-us-page-content-1-left>img:nth-child(3){
+    left: 20% !important;
+  }
+
+  /* 2 */
+  .about-us-page-content-2>img{
+    width: 10%;
+  }
+  /* 3 */
+  .about-us-page-content-3>.why-chose-us-about-us-page{
+    width: 450px !important;
+    padding-bottom: 0px !important;
+  }
+  .about-us-page-content-3>.why-chose-us-about-us-page>.why-chose-us-about-us-page-content{
+    flex-wrap: wrap;
+  }
+  .about-us-page-content-3>.why-chose-us-about-us-page>.why-chose-us-about-us-page-content>.gossip-why-chose-us-about-us{
+    width:100% !important;
+    margin-bottom: 30px;
+  }
+  /* 4 */
+  .about-us-page-content-4>.working-ability-about-us-page{
+    width: 450px !important;
+  }
+  .about-us-page-content-4>.working-ability-about-us-page>.working-ability-about-us-page-content{
+    flex-wrap: wrap;
+  }
+  .about-us-page-content-4>.working-ability-about-us-page>.working-ability-about-us-page-content>.cheat-working-ability-about-us-page{
+    width: 49%;
+    margin-bottom: 10px;
+  }
+  .about-us-page-content-4>.working-ability-about-us-page>iframe{
+    height: 300px !important;
+  }
+  /* 5 */
+  .about-us-page-content-5>.different-about-us-page{
+    width: 450px !important;
+  }
+  .about-us-page-content-5>.different-about-us-page>.different-about-us-page-content{
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .about-us-page-content-5>.different-about-us-page>.different-about-us-page-content>.lie-different-about-us-page{
+    width: 50% !important;
+    padding: 30px 15px !important;
+  }
+  
+  /* 6 */
+  .about-us-page-content-6>.testimonial-about-us-page{
+    width: 450px !important;
+  }
+  .about-us-page-content-6>.testimonial-about-us-page>.testimonial-about-us-page-content{
+    display: block !important;
+  }
+}
+@media (min-width: 540px) and (max-width:767px) {
+  .about-us-page-content{
+    margin-top: 10px !important;
+  }
+  .banner-about-us-page{
+    background-repeat: no-repeat;
+  }
+   /* 1 */
+   .about-us-page-content-1>.about-us-page-content-1-right{
+    max-width: 500px !important;
+    padding-top: 180px;
+    padding-left: 30px;
+  }
+  .about-us-page-content-1{
+    width: 100% !important;
+    display: block !important;
+    
+  }
+  .about-us-page-content-1-left>img:nth-child(3){
+    width: 335px !important;
+    height: 200px !important;
+  }
+  .about-us-page-content-1-left>img:first-child{
+    top: 100px !important;
+    left: 60% !important;
+  }
+  .about-us-page-content-1-left>img:nth-child(2) {
+    top: 0% !important;
+    left: 0% !important;
+}
+  .about-us-page-content-1-left>img:nth-child(3){
+    left: 20% !important;
+  }
+
+  /* 2 */
+  .about-us-page-content-2>img{
+    width: 10%;
+  }
+  /* 3 */
+  .about-us-page-content-3>.why-chose-us-about-us-page{
+    width: 500px !important;
+  }
+  .about-us-page-content-3>.why-chose-us-about-us-page>.why-chose-us-about-us-page-content>.gossip-why-chose-us-about-us{
+    width:160px !important;
+  }
+  /* 4 */
+  .about-us-page-content-4>.working-ability-about-us-page{
+    width: 500px !important;
+  }
+  /* 5 */
+  .about-us-page-content-5>.different-about-us-page{
+    width: 500px !important;
+  }
+  .about-us-page-content-5>.different-about-us-page>.different-about-us-page-content>.lie-different-about-us-page{
+    width: 120px !important;
+    padding: 30px 15px !important;
+  }
+  
+  /* 6 */
+  .about-us-page-content-6>.testimonial-about-us-page{
+    width: 500px !important;
+  }
+  .testimonial-about-us-page-content>.client-say-testimonial-about-us-page{
+    width: 160px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 899px) {
+  .about-us-page-content{
+    margin-top: 80px !important;
+  }
+   /* 1 */
+   .about-us-page-content-1>.about-us-page-content-1-right{
+    max-width: 400px !important;
+  }
+  .about-us-page-content-1{
+    width: 100% !important;
+    justify-content: unset !important;
+    justify-content: space-around !important;
+  }
+  .about-us-page-content-1-left>img:nth-child(3){
+    width: 335px !important;
+    height: 200px !important;
+  }
+  /* 2 */
+  .about-us-page-content-2>img{
+    width: 10%;
+  }
+  /* 3 */
+  .about-us-page-content-3>.why-chose-us-about-us-page{
+    width: 730px !important;
+  }
+  .about-us-page-content-3>.why-chose-us-about-us-page>.why-chose-us-about-us-page-content>.gossip-why-chose-us-about-us{
+    width:230px !important;
+  }
+  /* 4 */
+  .about-us-page-content-4>.working-ability-about-us-page{
+    width: 730px !important;
+  }
+  /* 5 */
+  .about-us-page-content-5>.different-about-us-page{
+    width: 730px !important;
+  }
+  .about-us-page-content-5>.different-about-us-page>.different-about-us-page-content>.lie-different-about-us-page{
+    width: 180px !important;
+    padding: 30px 15px !important;
+  }
+  
+  /* 6 */
+  .about-us-page-content-6>.testimonial-about-us-page{
+    width: 730px !important;
+  }
+  .testimonial-about-us-page-content>.client-say-testimonial-about-us-page{
+    width: 230px !important;
+  }
+}
+@media (min-width: 900px) and (max-width: 1023px) {
+    /* 1 */
+  .about-us-page-content-1>.about-us-page-content-1-right{
+    max-width: 400px !important;
+  }
+  .about-us-page-content-1{
+    width: 100% !important;
+    justify-content: unset !important;
+    justify-content: space-around !important;
+  }
+  .about-us-page-content-1-left>img:nth-child(3){
+    width: 435px !important;
+    height: 300px !important;
+  }
+  /* 2 */
+  .about-us-page-content-2>img{
+    width: 10%;
+  }
+  /* 3 */
+  .about-us-page-content-3>.why-chose-us-about-us-page{
+    width: 850px !important;
+  }
+  .about-us-page-content-3>.why-chose-us-about-us-page>.why-chose-us-about-us-page-content>.gossip-why-chose-us-about-us{
+    width:270px !important;
+  }
+  /* 4 */
+  .about-us-page-content-4>.working-ability-about-us-page{
+    width: 850px !important;
+  }
+  /* 5 */
+  .about-us-page-content-5>.different-about-us-page{
+    width: 850px !important;
+  }
+  .about-us-page-content-5>.different-about-us-page>.different-about-us-page-content>.lie-different-about-us-page{
+    width: 200px !important;
+  }
+  /* 6 */
+  .about-us-page-content-6>.testimonial-about-us-page{
+    width: 850px !important;
+  }
+  .testimonial-about-us-page-content>.client-say-testimonial-about-us-page{
+    width: 270px !important;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1225px) {
+  /* 1 */
+  .about-us-page-content-1>.about-us-page-content-1-right{
+    max-width: 400px !important;
+  }
+  .about-us-page-content-1{
+    width: 100% !important;
+    justify-content: unset !important;
+    justify-content: space-around !important;
+  }
+  /* 2 */
+  .about-us-page-content-2>img{
+    width: 10%;
+  }
+  /* 3 */
+  .about-us-page-content-3>.why-chose-us-about-us-page{
+    width: 1000px !important;
+  }
+  .about-us-page-content-3>.why-chose-us-about-us-page>.why-chose-us-about-us-page-content>.gossip-why-chose-us-about-us{
+    width:320px !important;
+  }
+  /* 4 */
+  .about-us-page-content-4>.working-ability-about-us-page{
+    width: 1000px !important;
+  }
+  /* 5 */
+  .about-us-page-content-5>.different-about-us-page{
+    width: 1000px !important;
+  }
+  .about-us-page-content-5>.different-about-us-page>.different-about-us-page-content>.lie-different-about-us-page{
+    width: 230px !important;
+  }
+  /* 6 */
+  .about-us-page-content-6>.testimonial-about-us-page{
+    width: 1000px !important;
+  }
+  .testimonial-about-us-page-content>.client-say-testimonial-about-us-page{
+    width: 320px !important;
+  }
+}
+@media (min-width: 1226px) and (max-width: 1348px) {
+  /* 3 */
+  .about-us-page-content-3>.why-chose-us-about-us-page{
+    width: 1200px !important;
+  }
+  .about-us-page-content-3>.why-chose-us-about-us-page>.why-chose-us-about-us-page-content>.gossip-why-chose-us-about-us{
+    width:380px !important;
+  }
+  /* 4 */
+
+  /* 5 */
+  .about-us-page-content-5>.different-about-us-page{
+    width: 1200px !important;
+  }
+  .about-us-page-content-5>.different-about-us-page>.different-about-us-page-content>.lie-different-about-us-page{
+    width: 270px !important;
+  }
+
+}
+@media (min-width: 1349px) and (max-width: 1497px) {
+  /* 3 */
+  .about-us-page-content-3>.why-chose-us-about-us-page{
+    width: 1300px !important;
+  }
+  .about-us-page-content-3>.why-chose-us-about-us-page>.why-chose-us-about-us-page-content>.gossip-why-chose-us-about-us{
+    width:400px !important;
+  }
+  /* 4 */
+  
+  /* 5 */
+  .about-us-page-content-5>.different-about-us-page{
+    width: 1300px !important;
+  }
+  .about-us-page-content-5>.different-about-us-page>.different-about-us-page-content>.lie-different-about-us-page{
+    width: 300px !important;
+  }
+
+}
+@media (min-width: 1498px) and (max-width: 1599px) {}
+@media (min-width: 1600px) and (max-width: 1685px) {}
+@media (min-width: 1686px) and (max-width: 1798px) {}
+@media (min-width: 1799px) and (max-width: 1919px) {}
+@media (min-width: 1920px) and (max-width: 2499px){  }
+@media (min-width: 2500px) and (max-width: 3839px){ }
+@media (min-width: 3840px) {}
+
+.about-us-page>.banner-about-us-page>p {
+  color: #FFF;
+}
+
+.about-us-page>.banner-about-us-page {
+  padding: 156px 0px;
+  text-align: center;
+}
+
+.about-us-page>.banner-about-us-page>p:first-child {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 45px;
+  text-transform: uppercase;
+}
+
+.about-us-page>.banner-about-us-page>p:nth-child(2) {
+  font-family: 'quicksand';
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 45px;
+  margin-bottom: 35px;
+}
+
+.about-us-page>.banner-about-us-page>p:nth-child(3) {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.about-us-page>.banner-about-us-page>a {
+  display: block;
+  color: #FFF;
+  background-color: #96AE00;
+  width: fit-content;
+  margin: 56px auto 0px;
+  padding: 15px 57px;
+  border-radius: 3px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+
+.about-us-page-content {
+  margin: 0 auto;
+}
+
+.about-us-page-content-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  width: 1210px;
+  margin: auto;
+}
+
+.about-us-page-content-1-left>img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.about-us-page-content-1-right>p:first-child {
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #2D2A6E;
+  margin-bottom: 15px;
+}
+
+.about-us-page-content-1-right>p:nth-child(2) {
+  font-family: 'quicksand';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  color: #2D2A6E;
+  margin-bottom: 22px;
+}
+
+.about-us-page-content-1-right>p:nth-child(3) {
+  font-size: 16px;
+  line-height: 23px;
+  color: #4D5574;
+  margin-bottom: 23px;
+}
+
+.about-us-page-content-1-right>ul>li>i {
+  font-size: 16px;
+  background-color: #96AE00;
+  color: #FFF;
+  border-radius: 100%;
+  padding: 3px;
+  margin-right: 12px;
+}
+
+.about-us-page-content-1-right>ul>li {
+  font-size: 16px;
+  line-height: 30px;
+  color: #4D5574;
+  margin-bottom: 10px;
+}
+
+/* 2 */
+.about-us-page-content-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 79px;
+}
+
+.about-us-page-content-2-content {
+  text-align: center;
+  max-width: 246px;
+}
+
+.about-us-page-content-2>.about-us-page-content-2-content>p:nth-child(2) {
+  font-family: 'quicksand';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #2D2A6E;
+  margin: 9px 0px 15px;
+}
+
+.about-us-page-content-2>.about-us-page-content-2-content>p:nth-child(3) {
+  font-size: 16px;
+  line-height: 23px;
+  color: #4D5574;
+}
+
+/* 3 */
+.about-us-page-content-3 {
+  background-color: #F7F7F9;
+  width: 100%;
+}
+
+.about-us-page-content-3>.why-chose-us-about-us-page {
+  padding: 76px 0px;
+  width: 1410px;
+  box-sizing: border-box;
+  margin: auto;
+  text-align: center;
+}
+
+.about-us-page-content-3>.why-chose-us-about-us-page>p:first-child {
+  font-family: 'school';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #96AE00;
+}
+
+.about-us-page-content-3>.why-chose-us-about-us-page>p:nth-child(2) {
+  font-family: 'quicksand';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  letter-spacing: -0.03em;
+  color: #2D2A6E;
+  margin-bottom: 14px;
+}
+
+.about-us-page-content-3>.why-chose-us-about-us-page>p:nth-child(3) {
+  font-size: 15px;
+  line-height: 22px;
+  color: #4D5574;
+  margin-bottom: 37px;
+}
+
+.about-us-page-content-3>.why-chose-us-about-us-page>.why-chose-us-about-us-page-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-us-page-content-3>.why-chose-us-about-us-page>.why-chose-us-about-us-page-content>.gossip-why-chose-us-about-us>p:nth-child(2) {
+  font-family: 'quicksand';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #2D2A6E;
+  margin: 25px 0px 11px;
+}
+
+.about-us-page-content-3>.why-chose-us-about-us-page>.why-chose-us-about-us-page-content>.gossip-why-chose-us-about-us>p:nth-child(3) {
+  font-size: 16px;
+  line-height: 23px;
+  color: #4D5574;
+  padding: 0px 13px;
+}
+
+.about-us-page-content-3>.why-chose-us-about-us-page>.why-chose-us-about-us-page-content>.gossip-why-chose-us-about-us{
+  width:450px;
+}
+.about-us-page-content-3>.why-chose-us-about-us-page>.why-chose-us-about-us-page-content>.gossip-why-chose-us-about-us>img{
+  width:100%;
+}
+.about-us-page-content-3 {
+  margin-bottom: 76px;
+}
+
+/* 4 */
+.about-us-page-content-4>.working-ability-about-us-page{
+    box-sizing: border-box;
+    margin: auto;
+    text-align: center;
+}
+.about-us-page-content-4>.working-ability-about-us-page>iframe{
+  border-radius: 10px;
+  margin-bottom: 32px;
+}
+.about-us-page-content-4>.working-ability-about-us-page>p:first-child{
+  font-family: 'school';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #96AE00;
+}
+
+.about-us-page-content-4>.working-ability-about-us-page>p:nth-child(2) {
+  font-family: 'quicksand';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  letter-spacing: -0.03em;
+  color: #2D2A6E;
+  margin-bottom: 14px;
+}
+.about-us-page-content-4>.working-ability-about-us-page>p:nth-child(3) {
+  font-size: 15px;
+  line-height: 22px;
+  color: #4D5574;
+  margin-bottom: 37px;
+}
+/*  */
+.about-us-page-content-4>.working-ability-about-us-page>.working-ability-about-us-page-content>.cheat-working-ability-about-us-page>span{
+  font-size: 24px;
+  font-weight: 600;
+  color: #96AE00;
+ 
+}
+.about-us-page-content-4>.working-ability-about-us-page>.working-ability-about-us-page-content{
+  display:flex;
+}
+.about-us-page-content-4>.working-ability-about-us-page>.working-ability-about-us-page-content>.cheat-working-ability-about-us-page{
+  text-align:left;
+}
+.about-us-page-content-4>.working-ability-about-us-page>.working-ability-about-us-page-content>.cheat-working-ability-about-us-page>span>img{
+   padding-right:10px;
+}
+.about-us-page-content-4>.working-ability-about-us-page>.working-ability-about-us-page-content>.cheat-working-ability-about-us-page>p:nth-child(2){
+  font-family: 'quicksand';
+font-weight: 700;
+font-size: 20px;
+line-height: 25px;
+color: #2D2A6E;
+margin:6px 0px 11px;
+}
+.about-us-page-content-4>.working-ability-about-us-page>.working-ability-about-us-page-content>.cheat-working-ability-about-us-page>p:nth-child(3){
+font-size: 16px;
+line-height: 23px;
+  color: #4D5574;
+}
+.about-us-page-content-4{
+  margin-bottom: 64px;
+}
+/* 5 */
+.about-us-page-content-5 {
+  background-color: #F7F7F9;
+  width: 100%;
+}
+
+.about-us-page-content-5>.different-about-us-page {
+  padding: 76px 0px;
+  width: 1410px;
+  box-sizing: border-box;
+  margin: auto;
+  text-align: center;
+}
+
+.about-us-page-content-5>.different-about-us-page>p:first-child {
+  font-family: 'school';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #96AE00;
+}
+
+.about-us-page-content-5>.different-about-us-page>p:nth-child(2) {
+  font-family: 'quicksand';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  letter-spacing: -0.03em;
+  color: #2D2A6E;
+  margin-bottom: 14px;
+}
+
+.about-us-page-content-5>.different-about-us-page>p:nth-child(3) {
+  font-size: 15px;
+  line-height: 22px;
+  color: #4D5574;
+  margin-bottom: 37px;
+}
+/*  */
+.about-us-page-content-5>.different-about-us-page>.different-about-us-page-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+
+.about-us-page-content-3>.why-chose-us-about-us-page>.why-chose-us-about-us-page-content>.gossip-why-chose-us-about-us>p:nth-child(2) {
+  font-family: 'quicksand';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #2D2A6E;
+  margin: 25px 0px 11px;
+}
+
+.about-us-page-content-3>.why-chose-us-about-us-page>.why-chose-us-about-us-page-content>.gossip-why-chose-us-about-us>p:nth-child(3) {
+  font-size: 16px;
+  line-height: 23px;
+  color: #4D5574;
+  padding: 0px 13px;
+}
+.about-us-page-content-5 {
+  margin-bottom: 76px;
+}
+.about-us-page-content-5>.different-about-us-page>.different-about-us-page-content>.lie-different-about-us-page{
+  background-color:#FFF;
+  width:330px;
+  box-sizing:border-box;
+  padding:50px 41px 46px;
+  border-radius: 20px;
+}
+.about-us-page-content-5>.different-about-us-page>.different-about-us-page-content>.lie-different-about-us-page>p:nth-child(2){
+  font-family: 'quicksand';
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+color: #2D2A6E;
+  margin:20px 0px 10px;
+}
+.about-us-page-content-5>.different-about-us-page>.different-about-us-page-content>.lie-different-about-us-page>p:nth-child(3){
+  font-size: 16px;
+  line-height: 23px;
+  color: #4D5574;
+  margin-bottom:21px;
+}
+.about-us-page-content-5>.different-about-us-page>.different-about-us-page-content>.lie-different-about-us-page>a{
+  font-weight: 600;
+font-size: 12px;
+line-height: 17px;
+text-transform: uppercase;
+color: #96AE00;
+}
+/* 6 */
+.about-us-page-content-6{
+  padding-bottom: 45px;
+}
+.about-us-page-content-6>.testimonial-about-us-page {
+  padding: 0px 0px 76px;
+  box-sizing: border-box;
+  margin: auto;
+  text-align: center;
+}
+
+.about-us-page-content-6>.testimonial-about-us-page>p:first-child {
+  font-family: 'school';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #96AE00;
+}
+
+.about-us-page-content-6>.testimonial-about-us-page>p:nth-child(2) {
+  font-family: 'quicksand';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  letter-spacing: -0.03em;
+  color: #2D2A6E;
+  margin-bottom: 14px;
+}
+
+.about-us-page-content-6>.testimonial-about-us-page>p:nth-child(3) {
+  font-size: 15px;
+  line-height: 22px;
+  color: #4D5574;
+  margin-bottom: 37px;
+}
+/*  */
+.about-us-page-content-6>.testimonial-about-us-page>.testimonial-about-us-page-content{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+.testimonial-about-us-page-content>.client-say-testimonial-about-us-page{
+  border: 1px solid #EBEFF4;
+ border-radius: 10px;
+   padding:40px 30px 38px;
+  box-sizing: border-box;
+ }
+ .testimonial-about-us-page-content>.client-say-testimonial-about-us-page>img{
+   width:70px;
+   margin-bottom:25px;
+ }
+ .testimonial-about-us-page-content>.client-say-testimonial-about-us-page>p:nth-child(2){
+   font-size: 16px;
+ line-height: 23px;
+   color: #4D5574;
+   margin-bottom:28px;
+ }
+ .testimonial-about-us-page-content>.client-say-testimonial-about-us-page>span>i{
+   color:#FFB800;
+   margin-bottom:15px;
+ }
+ .testimonial-about-us-page-content>.client-say-testimonial-about-us-page>p:nth-child(4){
+   font-family: 'quicksand';
+ font-weight: 700;
+ font-size: 12px;
+ line-height: 15px;
+ text-transform: uppercase;
+ color: #2D2A6E;
+ margin-bottom:3px;
+ }
+ .testimonial-about-us-page-content>.client-say-testimonial-about-us-page>p:nth-child(5){
+   font-size: 14px;
+ line-height: 20px;
+ color: #79819C;
+ }

@@ -1,0 +1,11 @@
+
+.box-action .item-buttons .yith-wcwl-add-to-wishlist a:before {
+  content: "\e99e";
+}
+.box-action .item-buttons .woocommerce.compare-button .button:before,
+.box-action .item-buttons .compare.button:before {
+  content: "\e9a8";
+}
+.box-action .item-buttons .quickviewbtn a:before {
+  content: "\e980";
+}

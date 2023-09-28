@@ -1,0 +1,202 @@
+.cart-inpage {
+    background: #FFF;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    height: 100%;
+    width: 350px;
+    display: none;
+    z-index: 3;
+}
+
+/*  */
+.close-cart-inpage{
+  color: #96AE00;
+}
+
+.close-cart-inpage i {
+  transition: all 0.5s ease;
+  font-size: 20px;
+  color: #2D2A6E;
+}
+.close-cart-inpage:hover i {
+  transition: all 0.5s ease;
+  transform: rotate(180deg);
+  color: #96AE00;
+}
+
+.cart-inpage-title p {
+    font-family: 'quicksand';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #2D2A6E;
+    padding: 17px 0px 15px 30px;
+}
+
+.cart-inpage-title {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2F2F6
+}
+
+.cart-inpage-title a {
+    font-size: 18px;
+    line-height: 18px;
+    color: #96AE00;
+    padding: 17px 15px 15px;
+}
+/* footer cart */
+.cart-inpage-footer{
+    position:absolute;
+     bottom:0%;
+     font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+   color: #FFFFFF;
+     width:100%;
+     text-align:center;
+     /* padding:15px 0px; */
+   }
+
+   
+
+   .cart-inpage-footer span{
+     text-transform: uppercase;
+   }
+   .cart-inpage-content{
+    padding:9px 30px 0px 29px;
+  }
+  .cart-product-item{
+    position:relative;
+    display:flex;
+  }
+  .cart-product-item-left a{
+    color:#96AE00;
+    font-size:13px;
+    border:1px solid #96AE00;
+    border-radius:30px;
+    padding:0px 3px;
+    position:absolute;
+    top:0%;
+    left:0%;
+  }
+  .cart-product-item-right p:first-child{
+    font-weight: 400;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18px;
+  color: #2D2A6E;
+   margin-bottom:8px;
+  }
+  .cart-product-item-right p:last-child{
+    font-weight: 600;
+  font-size: 12px;
+  line-height: 17px;
+  color: #2D2A6E;
+  }
+  .cart-product-item-right span{
+    color:#96AE00;
+  }
+  .cart-product-item{
+    padding-bottom: 19px;
+    border-bottom:1px solid #E6ECF0;
+    margin-top:21px;
+  }
+/* cart check out */
+.cart-product-item-right{
+    padding-left:10px;
+  }
+  .cart-check-out .total-price{
+    display:flex;
+    justify-content:space-between;
+     margin-bottom:17px;
+  }
+  .cart-check-out .total-price p:first-child{
+    font-weight: 600;
+  font-size: 12px;
+  line-height: 17px;
+  color: #2D2A6E;
+  }
+  .cart-check-out .total-price p:last-child{
+    font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #2D2A6E;
+  }
+  .cart-check-out a:nth-child(2){
+    font-weight: 600;
+  font-size: 13px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #96AE00;
+   border: 2px solid #96AE00;
+  border-radius: 30px;
+   padding:13px 0px;
+    width:100%;
+    display:block;
+    margin-bottom:10px;
+  }
+  .cart-check-out a:nth-child(3){
+      font-weight: 600;
+  font-size: 13px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  color:#FFF ;
+  background:#96AE00;
+  border: 2px solid #96AE00;
+  border-radius: 30px;
+  padding:13px 0px;
+  display:block;
+  width:100%;
+  }
+
+  .cart-check-out{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+  }
+  .total-price{
+        border-top: 1px solid #E6ECF0;
+    padding-top:18px
+  }
+  .cart-inpage-footer .footer-text{
+    padding:15px 0px;
+    background-color:#D91212;
+  }
+
+  /* empty cart */
+  .cart-inpage.empty{
+    text-align:center;
+  }
+  .cart-inpage.empty .cart-inpage-content img{
+    margin:53px 0px 19px;
+  }
+  .cart-inpage.empty .cart-inpage-content p{
+    font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #2D2A6E;
+  }
+  .cart-inpage.empty .cart-inpage-content a{
+    transition: all 0.3s ease;
+    font-weight: 600;
+  font-size: 13px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #96AE00;
+  border-radius: 30px;
+    padding:13px 44.5px;
+    display:block;
+    width:fit-content;
+    margin:35px auto 0px;
+  }
+  .cart-inpage.empty .cart-inpage-content a:hover{
+    transition: all 0.3s ease;
+    background-color:#859A00 ;
+  }
+  

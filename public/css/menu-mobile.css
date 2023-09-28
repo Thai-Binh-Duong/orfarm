@@ -1,0 +1,113 @@
+.menu-mobile{
+    width: 360px;
+    height: 100%;
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    background-color: #2D2A6E;
+    z-index: 3;
+    display: none;
+}
+.hide-main-sub-menu-mobile{
+    display: none;
+}
+.menu-mobile>.close-mobile-menu>a{
+    font-weight: 600;
+font-size: 13px;
+line-height: 19px;
+text-transform: uppercase;
+color: #FFFFFF;
+display: block;
+text-align: center;
+background-color: #96AE00;
+padding: 13px 0px;
+
+}
+.menu-mobile>.close-mobile-menu>a>span{
+    padding-left: 5px;
+    font-size: 19px;
+}
+.main-sub-menu-mobile a{
+    color:#FFFFFF;
+}
+.main-sub-menu-mobile i{
+    color: #FFFFFF;
+}
+
+.menu-mobile-content{
+    padding: 26px 30px 0px;
+}
+.menu-mobile-content>p{
+    font-family: 'quicksand';
+font-weight: 700;
+font-size: 14px;
+line-height: 18px;
+text-align: center;
+color: #FFF;
+margin-bottom: 16px;
+}
+.menu-mobile-content>.input-search-menu-mobile>input{
+    width: 100%;
+    padding:12px 0px 13px 17px;
+    border-radius: 3px;
+}
+.menu-mobile-content>.input-search-menu-mobile>input::placeholder{
+    font-size: 14px;
+line-height: 20px;
+color: #ACAFB7;
+}
+.menu-mobile-content input{
+    border: none;
+    outline: none;
+    margin-bottom:43px;
+}
+.menu-mobile-content>.main-sub-menu-mobile>.main-sub-menu-mobile-item>a{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+font-size: 16px;
+line-height: 23px;
+padding-bottom: 15px;
+padding-top: 13px;
+border-bottom: 1px dashed #4D49A2;
+}
+.menu-mobile-content>.main-sub-menu-mobile>.main-sub-menu-mobile-item:first-child>a{
+    padding-top: 0px ;
+}
+.hide-main-sub-menu-mobile{
+    padding:13px 0px 17px 21px;
+}
+.hide-main-sub-menu-mobile>ul>li{
+    padding-bottom: 20px;
+}
+.hide-main-sub-menu-mobile>ul>li:last-child{
+    padding-bottom: 0px;
+}
+.main-sub-menu-mobile{
+    margin-bottom: 55px;
+}
+.menu-mobile-content>p:nth-child(4){
+    font-weight: 500;
+font-size: 16px;
+line-height: 23px;
+text-align: left;
+}
+.menu-mobile-content>a{
+    font-weight: 600;
+font-size: 13px;
+line-height: 19px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+display: block;
+border-radius: 3px;
+margin-bottom: 10px;
+padding: 13px 0px;
+}
+.menu-mobile-content>a:nth-child(5){
+    background-color: #4A469F;
+}
+.menu-mobile-content>a:nth-child(6){
+    background-color: #96AE00;
+}
