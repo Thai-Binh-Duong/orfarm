@@ -1,3 +1,19 @@
+@font-face{
+  font-family: 'jost';
+  src: url(../font/Jost/jost/Jost400Book.otf );
+  /* src: url(../font/Jost/static/Jost-Regular.ttf ); */
+}
+@font-face{
+font-family: 'school';
+src: url(../font/Schoolbell/Schoolbell-Regular-400.otf);
+/* src: url(../font/Schoolbell-Regular.ttf); */
+}
+@font-face{
+font-family: 'quicksand';
+src: url(../font/Quicksand/quicksand/Quicksand_Book.otf);
+/* src: url(../font/Quicksand/static/Quicksand-Regular.ttf); */
+}
+
 body{
     margin: auto;
     font-family: 'jost';
@@ -10,18 +26,6 @@ body{
 image{
     width: 100%;
     height: auto;
-}
-@font-face{
-    font-family: 'jost';
-    src: url(../font/Jost/static/Jost-Regular.ttf );
-}
-@font-face{
-  font-family: 'school';
-  src: url(../font/Schoolbell-Regular.ttf);
-}
-@font-face{
-  font-family: 'quicksand';
-  src: url(../font/Quicksand/static/Quicksand-Regular.ttf);
 }
 
 .opacity-hiden{
@@ -1604,6 +1608,7 @@ color: #ACAFB7;
 }
 .footer-botom .copyright{
   color: #b0afcc;
+  padding: 0 30px;
 }
 .footer-botom .my-project{
   color: #96ae00;

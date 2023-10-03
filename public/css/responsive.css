@@ -669,6 +669,7 @@
     .line-footer{
         margin: 30px 0px !important;
     }
+    
     .subscribe input::placeholder{
         font-size: 10px !important;
     }

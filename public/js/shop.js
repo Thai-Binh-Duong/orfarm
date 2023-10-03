@@ -17,7 +17,7 @@ $(document).ready(function(){
     
 });
     $('.filter-icon').click(function(){
-        $('.sidebar-left').css({'position':'fixed','top':'0%','left':'0%','display':'block','height':'100%','z-index':'2','overflow':'auto','border-radius':'0px'});
+        $('.sidebar-left').css({'position':'fixed','top':'0%','left':'0%','display':'block','height':'100%','z-index':'3','overflow':'auto','border-radius':'0px'});
         $('.filter').css('border-radius','0px');
         $('.background-dialog').css('display','block');
         $('.background-dialog').click(function(){
@@ -29,6 +29,5 @@ $(document).ready(function(){
             $('.background-dialog').css('display','none');
             $('.close-lightbox').css('display','none');
         })
-         
     })
 })

@@ -7,7 +7,8 @@
         <title>ORFARM</title>
 
         <link rel="shortcut icon" href=" {{ asset('/image/favicon.svg') }}  " type="image/x-icon">
-        <link rel="stylesheet" href=" {{ asset('/font/Jost/static/Jost-Regular.ttf') }} ">
+        <link rel="stylesheet" href=" {{ asset('/font/Jost/jost/Jost400Book.otf') }} ">
+        {{-- <link rel="stylesheet" href=" {{ asset('/font/Jost/static/Jost-Regular.ttf') }} "> --}}
 
         <link rel="stylesheet" href="{{ asset('/css/reset.css') }} ">
         <link rel="stylesheet" href="{{ asset('/css/style.css') }} "> 
@@ -87,7 +88,7 @@
                             <ul>
                                 <li class="link"> <a href="{{ route('shop.show') }}">Store Location</a></li>
                                 <li class="link"><a href="{{ route('cart.show') }}">Order Tracking</a></li>
-                                <li class="link"><a href="#">FAQs</a></li>
+                                <li class="link"><a href="{{ route('shop.show') }}">FAQs</a></li>
                                 <!-- <li class="line">|</li>
                                 <li class="language-item"><a href="#">ENG</a>
                                     <ul class="sub-menu-topbar">
@@ -498,12 +499,27 @@
                 </div>
                 <div class="menu-mobile-content">
                     <p>WHAT ARE YOU LOOKING FOR?</p>
-                    <div class="input-search-menu-mobile">
+
+                    <form action="{{ route('product.search') }}" method="POST">
+                        @csrf
+                        <div class="input-search-menu-mobile">
+                            <input type="text" name="search" placeholder="Search products...">
+                        </div>
+                        
+                        <div class="btn_search">
+                            <input type="submit" value="Search" name="search_button">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        
+                    </form>
+
+                    {{-- <div class="input-search-menu-mobile">
                         <input type="search" name="" id="" placeholder="Search products...">
-                    </div>
+                    </div> --}}
+
                     <div class="main-sub-menu-mobile">
                         <div class="main-sub-menu-mobile-item">
-                            <a href="#">Home 
+                            <a href=" {{route("public.home")}} ">Home 
                                 {{-- <span> 
                                     <i class="fas fa-chevron-up"></i>
                                     <i class="fas fa-chevron-down"></i></span>  --}}
@@ -519,7 +535,7 @@
                             </div> --}}
                         </div>
                         <div class="main-sub-menu-mobile-item">
-                            <a href="#">Shop 
+                            <a href=" {{route("shop.show")}} ">Shop 
                                 {{-- <span><i class="fas fa-chevron-up"></i><i class="fas fa-chevron-down"></i></span> --}}
                             </a> 
                             {{-- <div class="hide-main-sub-menu-mobile">
@@ -532,11 +548,11 @@
                                 </ul>
                             </div> --}}
                         </div>
-                        <div class="main-sub-menu-mobile-item">
+                        {{-- <div class="main-sub-menu-mobile-item">
                             <a href="#">Page 
-                                {{-- <span><i class="fas fa-chevron-up"></i><i class="fas fa-chevron-down"></i></span>  --}}
+                                <span><i class="fas fa-chevron-up"></i><i class="fas fa-chevron-down"></i></span> 
                             </a> 
-                            {{-- <div class="hide-main-sub-menu-mobile">
+                            <div class="hide-main-sub-menu-mobile">
                                 <ul>
                                     <li> <a href="#">About Me</a> </li>
                                     <li> <a href="#">Coming Soon</a> </li>
@@ -544,10 +560,10 @@
                                     <li> <a href="#">Our Team</a> </li>
                                     <li> <a href="#">Page 404</a> </li>
                                 </ul>
-                            </div> --}}
-                        </div>
+                            </div>
+                        </div> --}}
                         <div class="main-sub-menu-mobile-item">
-                            <a href="#">Blog
+                            <a href="  {{route("post.show")}}   ">Blog
                                 {{-- <span><i class="fas fa-chevron-up"></i><i class="fas fa-chevron-down"></i></span> --}}
                             </a> 
                             {{-- <div class="hide-main-sub-menu-mobile">
@@ -561,7 +577,7 @@
                             </div> --}}
                         </div>
                         <div class="main-sub-menu-mobile-item">
-                            <a href="#">About Us
+                            <a href=" {{route("about-us.show")}}  ">About Us
                                 {{-- <span><i class="fas fa-chevron-up"></i><i class="fas fa-chevron-down"></i></span> --}}
                             </a> 
                             {{-- <div class="hide-main-sub-menu-mobile">
@@ -575,7 +591,7 @@
                             </div> --}}
                         </div>
                         <div class="main-sub-menu-mobile-item">
-                            <a href="#">Contact Us 
+                            <a href=" {{route("contact.show")}}  ">Contact Us 
                                 {{-- <span><i class="fas fa-chevron-up"></i><i class="fas fa-chevron-down"></i></span>  --}}
                             </a> 
                             {{-- <div class="hide-main-sub-menu-mobile">
@@ -589,18 +605,18 @@
                             </div> --}}
                         </div>
                     </div>
-                    <p>My Account</p>
+                    {{-- <p>My Account</p>
                     <a href="#">LOGIN</a>
-                    <a href="#">REGISTER</a>
+                    <a href="#">REGISTER</a> --}}
                 </div>
             </div>
             <div class="navigation-mobile-fixed">
                 <div class="navigation-mobile-relative">
-                    <a href="#"><i class="fa-solid fa-house"></i></a>
-                    <a href="#"><i class="fa-sharp fa-solid fa-store"></i></a>
-                    <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
-                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-                    <a href="#"><i class="fa-solid fa-user"></i></a>
+                    <a href=" {{route("public.home")}} "><i class="fa-solid fa-house"></i></a>
+                    <a href=" {{route("shop.show")}} " style="transform: translateX(-50%);"><i class="fa-sharp fa-solid fa-store"></i></a>
+                    <a href=" {{route("cart.show")}} "><i class="fa-solid fa-bag-shopping"></i></a>
+                    <a href=" {{route("shop.show")}} "  style="transform: translateX(50%);"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href=" # "><i class="fa-solid fa-user"></i></a>
                 </div>
             </div>
             <div class="background-dialog">

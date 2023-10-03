@@ -91,9 +91,9 @@
                                                 $count--;
 
                                             @endphp
-                                            <a href="{{ $tag->id  }}">{{ ucwords( $tag->name ) }}@if ($count > 0)
+                                            <span>{{ ucwords( $tag->name ) }}@if ($count > 0)
                                                 ,
-                                            @endif</a>
+                                            @endif</span>
                                         @endforeach 
                                     </div> 
                                 </li>
