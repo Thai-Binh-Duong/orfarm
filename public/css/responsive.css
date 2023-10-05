@@ -71,7 +71,7 @@
         height: 445px;
     }
     .hover-product-readmore{
-        bottom: 6px;
+        bottom: 0;
         left: 0;
     }
     .hover-product-readmore a{
@@ -333,10 +333,10 @@
         height: 120px !important;
     } */
     .owl-item:hover .product-items {
-        height: 430px;
+        height: 460px;
     }
     .hover-product-readmore{
-        bottom: 6px;
+        bottom: 0;
         left: 0;
     }
     .hover-product-readmore a{
@@ -763,7 +763,7 @@
         padding-bottom: 15px;
     }
     .owl-item:hover .product-items {
-        height: 425px;
+        height: 420px;
     }
     .hover-product-readmore a{
         padding: 5px;

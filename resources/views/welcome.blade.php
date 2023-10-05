@@ -7,8 +7,7 @@
         <title>ORFARM</title>
 
         <link rel="shortcut icon" href=" {{ asset('/image/favicon.svg') }}  " type="image/x-icon">
-        <link rel="stylesheet" href=" {{ asset('/font/Jost/jost/Jost400Book.otf') }} ">
-        {{-- <link rel="stylesheet" href=" {{ asset('/font/Jost/static/Jost-Regular.ttf') }} "> --}}
+        <link href=" {{ asset('/font/Jost/jost/Jost400Book.otf') }} ">
 
         <link rel="stylesheet" href="{{ asset('/css/reset.css') }} ">
         <link rel="stylesheet" href="{{ asset('/css/style.css') }} "> 
